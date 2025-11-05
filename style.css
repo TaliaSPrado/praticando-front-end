@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lexend;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+aside{
+    background-color: #0F0B15;
+    color: aliceblue;
+    padding: 1rem;
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+aside .kanary{
+    /* background-color: darkcyan; */
+    margin: 10px;
+    height: 80px;
+    text-align: center;
+}
+
+aside nav{
+    margin-left: 1rem;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+aside nav div a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+aside .logout a{
+    /* background-color: aquamarine; */
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 30px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 10fr;
+    background-color: #0f172a;
+    color: aliceblue;
+    min-width: 0; /* previne overflow */
+}
+header{
+    background-color: pink;
+    grid-row: 1;
+    display: flex;
+    padding: 1rem
+}
+form{
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 7%;
+}
+input{
+    width: 100%;
+    border-radius: 20px;
+    height: 35px;
+}
+.menu-header{
+    background-color: black;
+    
+}
+
+.abaixo-menu{
+    grid-row: 2;
+    background-color: blue;
+    grid-template-columns: auto auto;
+    display: grid;
+    align-items: center;
+}
+.board{
+    background-color: coral;
+    padding-left: 1rem;
+}
+.this-week{
+    background-color:rgb(80, 42, 15);
+    align-self: end;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(00px, 1fr));
+    height: 100%;
+}
+
+article{
+    border-radius: 10px;
+    background-color: darkcyan;
+    grid-row: 3;
+}
