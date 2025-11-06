@@ -137,25 +137,30 @@ section{
     border-radius: 20px;
 }
 
-main section .seletor{
+main section #seletor{
     /* background-color: brown; */
-    margin: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+    height: 7%;
 }
 
-main section .overview{
+main section #overview{
     /* background-color: cadetblue; */
-    height: 35% ;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%
+    height: 35%;
+    gap: 10px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
 }
 
-main section .box1{
+main section .box{
     background-color: #110c1a;
-    height: 96%;
-    grid-column: 1;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.7);
-    margin: 10px;
+    /* margin: 10px; */
 }
 main section .titulo{
     display: flex;
@@ -167,71 +172,44 @@ main section .number{
     font-size: 60px;
     margin-left: 20px;
     margin-bottom: 20px;
-    
 }
-main section .box2{
-    background-color: #110c1a;
-    height: 96%;
-    grid-column: 2;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    margin: 10px;
-}
-main section .box3{
-    background-color: #110c1a;
-    height: 96%;
-    grid-column: 3;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    margin: 10px;
-}
-main section .box4{
-    background-color: #110c1a;
-    height: 96%;
-    grid-column: 4;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    margin: 10px;
+main section #overview2{
+    background-color: brown;
+    display: flex;
+    gap: 10px;
+    height: 58%;
+    padding: 15px;
 }
 
-main section .overview2{
-    display: grid;
-    height: 55%;
-    grid-template-columns: 60% 40%;
-}
-
-main section .progress-project{
-    grid-column: 1;
+main section #progress{
     height: 100%;
-    display: grid;
-    grid-template-rows: 50px 80%
+    width: 65%;
+    display: flex;
+    flex-direction: column;
 }
-main section .progress{
+main section #progress h4 {
     background-color: #110c1a;
-    grid-row: 1;
     border-radius: 15px;
-    margin: 7px;
     border: 1px solid rgba(255, 255, 255, 0.7);
     padding: 7px;
-    width: 70%;
-
+    width: 100%;
+    /* margin-bottom: 10px; */
+}
+main section #progress img{
+    width: 100%;
+    height: 100%;
 }
 
-main section .graphic{
-    /* background-color: chartreuse; */
-    padding: 10px;
-}
-
-main section .members-time{
+main section #members-time{
     background-color: #110c1a;
     height: 100%;
-    padding: 20px;
-    margin: 15px;
+    padding: 15px;
+    width: 35%;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-main section .titulo2{
+main section #titulo2{
     display: flex;
     height: 40%;
     justify-content: space-between;
@@ -245,7 +223,5 @@ main section .member{
     justify-content: space-around;
 }
 main section .option-members{
-    margin-top: 50px;
-    display: flex;
-    direction: rtl;
+
 }
