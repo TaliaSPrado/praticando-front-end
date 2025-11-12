@@ -215,36 +215,8 @@ main section #members-time{
     justify-content: space-between;
 }
 
-main section #titulo2{
+/* main section #titulo2{
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
-}
-
-main section .members-names{
-    flex-grow: 1;
-}
-
-main section .members-names .member{
-    display: flex;
-    align-items: center;
-}
-
-main section .member h1{
-    font-size: 40px;
-    width: 60px;
-}
-
-main section .names{
-    width: 100%;
-    padding-left: 15px;
-}
-
-main section .member h3{
-    width: 50px;
-}
-
-main section #all-members{
-    padding-top: 10px;
-    align-self: flex-end;
-}
+} */
