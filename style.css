@@ -61,11 +61,8 @@ main {
     background: linear-gradient(180deg, #0F172A, #15142B, #1A102C) ;
     padding-left: 10px;
     display: flex;
-    flex-direction: column;
-    background: linear-gradient(180deg, #0F172A, #15142B, #1A102C) ;
     color: aliceblue;
     min-width: 0; /* previne overflow */
-    align-items: center;
     align-items: center;
 }
 
@@ -107,56 +104,38 @@ header .menu-header{
     font-size: 24px;
 }
 
-.page-title{
-    display: flex;
-    padding-left: 15px;
-}
-header .menu-header{
-    /* background-color: black; */
-    width: 150px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.page-title{
+/* .page-title{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
     width: 100%;
     height: 70px;
-    justify-content: space-between;
-    padding: 20px;
-    width: 100%;
-    height: 70px;
-}
+} */
 
-section{
+/* section{
     background-color: #0F0B15;
     height: calc(97% - 70px - 70px);
     width: 96%;
     border-radius: 20px;
-}
+} */
 
-main section #seletor{
-    /* background-color: brown; */
+/* main section #seletor{
     padding-top: 20px;
     padding-left: 15px;
     height: 7%;
-}
+} */
 
-main section #overview{
-    /* background-color: cadetblue; */
+/* main section #overview{
     height: 35%;
     gap: 10px;
     width: 100%;
     padding: 15px;
     display: flex;
     justify-content: space-around;
-}
+} */
 
-main section .box{
+/* main section .box{
     background-color: #110c1a;
     height: 100%;
     width: 100%;
@@ -166,29 +145,29 @@ main section .box{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-main section .titulo{
+} */
+/* main section .titulo{
     display: flex;
     justify-content: space-between;
-}
-main section .number{
+} */
+/* main section .number{
     font-size: 6vw;
     margin-left: 10px;
-}
-main section #overview2{
+} */
+/* main section #overview2{
     display: flex;
     gap: 10px;
     height: 58%;
     padding: 15px;
-}
+} */
 
-main section #progress{
+/* main section #progress{
     height: 100%;
     width: 65%;
     display: flex;
     flex-direction: column;
-}
-main section #progress h4 {
+} */
+/* main section #progress h4 {
     background-color: #110c1a;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.7);
@@ -196,13 +175,13 @@ main section #progress h4 {
     padding-left: 12px;
     width: 100%;
     margin-bottom: 10px;
-}
+} */
 main section #progress img{
     width: 100%;
     height: 88%;
 }
 
-main section #members-time{
+/* main section #members-time{
     background-color: #110c1a;
     height: 100%;
     padding: 15px;
@@ -213,7 +192,7 @@ main section #members-time{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 /* main section #titulo2{
     display: flex;
