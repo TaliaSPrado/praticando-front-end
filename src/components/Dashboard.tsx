@@ -1,7 +1,7 @@
 export const Dashboard = () => (
-    <div>    
+    <div className="w-full pl-3.75">    
         <div className="flex items-center justify-between p-5 w-full h-17.5">
-            <h1>Dashoard</h1>
+            <h1 className="text-3xl font-semibold">Dashboard</h1>
             <h4>This week  ^</h4>
         </div>
         <section className="bg-[#0F0B15] h-[calc(97% - 70px - 70px)] w-[96%] rounded-3xl">
