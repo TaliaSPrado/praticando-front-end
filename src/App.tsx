@@ -1,6 +1,6 @@
-import { Dashboard } from "./components/Dashboard"
-import { MenuAside } from "./components/MenuAside"
-import { MenuHeader } from "./components/MenuHeader"
+import { Dashboard } from "./pages/Dashboard"
+import { MenuAside } from "./components/layout/MenuAside"
+import { MenuHeader } from "./components/layout/MenuHeader"
 
 export function App() {
   return (
